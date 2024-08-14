@@ -2,10 +2,10 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 
 export const metadata = {
-  metadataBase: new URL('https://postgres-pgvector.vercel.app'),
-  title: 'Vercel Postgres AI-powered Semantic Search Demo',
+  metadataBase: new URL('https://findingai.top'),
+  title: 'Top AI Tools',
   description:
-    'A Next.js app that uses Vercel Postgres with pgvector, Drizzle ORM, and OpenAI to power a semantic search.',
+    'Top AI Tools is a collection of the best AI tools and resources available on the internet.',
 }
 
 const inter = Inter({
