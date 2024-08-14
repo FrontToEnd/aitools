@@ -6,6 +6,9 @@ export const metadata = {
   title: 'Top AI Tools',
   description:
     'Top AI Tools is a collection of the best AI tools and resources available on the internet.',
+  icons: {
+    icon: '/favicon.ico',
+  }
 }
 
 const inter = Inter({
@@ -21,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.variable}>{children}</body>
+    <body className={inter.variable}>{children}</body>
     </html>
   )
 }
