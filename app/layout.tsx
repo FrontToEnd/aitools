@@ -5,9 +5,9 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export const metadata = {
   metadataBase: new URL('https://findingai.top'),
-  title: 'Top AI Tools',
+  title: 'Find AI Tools',
   description:
-    'Top AI Tools is a collection of the best AI tools and resources available on the internet.',
+    'Find AI Tools is a collection of the best AI tools and resources available on the internet.',
   icons: {
     icon: '/favicon.ico',
   }
