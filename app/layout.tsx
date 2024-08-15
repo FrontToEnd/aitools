@@ -26,10 +26,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+    <head>
+      <meta name="google-site-verification" content="Uqey7nCWiOEStrPRmIEvsPUDSPsyJqQucTui7Mixqug"/>
+    </head>
     <body className={inter.variable}>
-      {children}
-      <Analytics />
-      <SpeedInsights />
+    {children}
+    <Analytics/>
+    <SpeedInsights />
     </body>
     </html>
   )
