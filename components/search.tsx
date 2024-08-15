@@ -62,7 +62,7 @@ export function Search({searchPokedex}) {
                     value={item.title}
                     className="flex items-center justify-between py-3 h-16"
                 >
-                  <div className="flex space-x-4 w-11/12">
+                  <div className="flex space-x-4 w-10/12">
                     <Image
                         width={40}
                         height={40}
