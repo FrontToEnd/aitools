@@ -16,7 +16,7 @@ export function Search({searchPokedex}) {
   const [query, setQuery] = useState('')
   const [loading, setLoading] = useState(false)
   const [searchResults, setSearchResults] = useState<any[]>([])
-  const [debouncedQuery] = useDebounce(query, 150)
+  const [debouncedQuery] = useDebounce(query, 300)
   useEffect(() => {
     let current = true
     if (debouncedQuery.trim().length > 0) {

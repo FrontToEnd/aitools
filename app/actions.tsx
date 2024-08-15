@@ -23,6 +23,7 @@ async function embeddingSearch(search:string) {
       return embeddingItems;
     }
   } catch (error) {
+    console.log('error:', error);
     return [];
   }
 }

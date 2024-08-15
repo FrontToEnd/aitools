@@ -16,6 +16,7 @@ export const handleGetEmbedding = async (search: string) => {
         });
         return embeddingResponse.data[0].embedding;
     } catch (error) {
+        console.log('error:', error)
         return null;
     }
 }
