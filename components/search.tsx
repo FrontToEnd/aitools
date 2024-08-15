@@ -42,7 +42,7 @@ export function Search({searchPokedex}) {
       <Command label="Command Menu" shouldFilter={false}>
         <CommandInput
           id="search"
-          placeholder="Search anything"
+          placeholder="Over 14000+ tools, search here..."
           className="focus:ring-0 sm:text-sm text-base focus:border-0 border-0 active:ring-0 active:border-0 ring-0 outline-0"
           value={query}
           onValueChange={(q) => setQuery(q)}

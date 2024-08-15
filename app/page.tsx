@@ -15,11 +15,11 @@ export default function Home() {
             priority
             className={'rounded-full'}
           />
-          <span className={'select-none font-bold ml-4 text-2xl'}>Top AI Tools</span>
+          <span className={'select-none font-bold ml-4 text-2xl'}>Find AI Tools</span>
         </header>
         <main className="relative flex flex-col items-center justify-center" style={{ 'height': 'calc(100vh - 80px)' }}>
           <h1 className="pt-4 pb-8 bg-gradient-to-br from-black via-[#171717] to-[#575757] bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl">
-            Search Your AI Tools
+            Maybe The Best Search Engine for AI Tools
           </h1>
           <div className="bg-white/30 p-6 lg:p-12 shadow-xl ring-1 ring-gray-900/5 rounded-lg backdrop-blur-lg max-w-4xl mx-auto w-full">
             <div className="divide-y divide-gray-900/5 w-full">
