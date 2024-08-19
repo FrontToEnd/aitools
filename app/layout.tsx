@@ -4,13 +4,14 @@ import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export const metadata = {
-  metadataBase: new URL('https://findingai.top'),
+  metadataBase: new URL('https://www.findingai.top'),
   title: 'Find AI Tools',
   description:
-    'Find AI Tools is a collection of the best AI tools and resources available on the internet.',
+    'Discover a comprehensive collection of AI tools from around the globe.',
   icons: {
     icon: '/favicon.ico',
-  }
+  },
+  keywords: ['AI', 'tools', 'embeddings', 'search engine', 'datasets'],
 }
 
 const inter = Inter({
